@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Fruitables - No Result Found{% endblock %}
+{% block content %}
+
+<!-- 404 Start -->
+<div class="container-fluid py-5" style="height: calc(100vh - 100px); margin-top: 52px;">
+    <div class="container py-5 text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <i class="bi bi-exclamation-triangle display-1 text-secondary"></i>
+                <h1 class="display-4">Search Result:</h1>
+                <h1 class="mb-4">No product found!</h1>
+                <p class="mb-4">We’re sorry, the product you have looked for does not available in our store! Maybe go to our home page or try to search in shop?</p>
+                <a class="btn border-secondary rounded-pill py-3 px-5" href="/shop">Go To Shop</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 404 End -->
+{% endblock %}
